@@ -8,8 +8,8 @@ description: ほげほげほげ
 
 テストです。
 
-[About](/my_blog/about)
+[About]({{ site.baseurl }}/about)
 
 {% for post in site.posts %}
-  * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%d %B %Y" }}
+  * [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - {{ post.date | date: "%d %B %Y" }}
 {% endfor %}

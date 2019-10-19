@@ -29,8 +29,6 @@ url: "https://atsushi-i-fsp.github.io" # the base hostname & protocol for your s
 twitter_username: jekyllrb
 github_username:  jekyll
 
-permalink: /my_blog/:categories/:year/:month/:day/:title:output_ext
-
 # Build settings
 remote_theme: pages-themes/slate
 plugins:
